@@ -45,5 +45,6 @@ Este proyecto está bajo la Licencia MIT.
 Este proyecto es ideado y desarollado por
 
 -Rafael Martinez Cerda 
+
 -Ana Karen González Ramírez
 
