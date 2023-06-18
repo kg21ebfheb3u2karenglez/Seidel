@@ -46,5 +46,7 @@ Este proyecto es ideado y desarollado por
 
 -Rafael Martinez Cerda 
 
+-Irving Misael Carrillo Rosales
+
 -Ana Karen González Ramírez
 
