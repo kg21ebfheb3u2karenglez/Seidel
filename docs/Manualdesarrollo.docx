@@ -1,0 +1,34 @@
+Manual de Desarrollador - Gauss-Seidel Solver
+
+¡Bienvenido al manual de desarrollador para el programa Gauss-Seidel Solver! Este manual te proporcionará una comprensión detallada del código fuente y te guiará para realizar modificaciones y personalizaciones según tus necesidades. A continuación, se explican las partes clave del código y cómo funciona:
+
+1. Bibliotecas:
+   - El código utiliza dos bibliotecas: `<iostream>` para la entrada/salida estándar y `<Eigen/Dense>` para la manipulación de matrices y vectores en algebra lineal. Asegúrate de tenerlas instaladas y configuradas correctamente.
+
+2. Clase GaussSeidelSolver:
+   - Esta clase representa el solver Gauss-Seidel. Contiene variables miembro para la matriz de coeficientes `A`, el vector de términos independientes `b`, el vector de solución `x`, el número máximo de iteraciones `maxIterations` y la tolerancia de convergencia `tolerance`.
+
+3. Constructor:
+   - El constructor `GaussSeidelSolver` inicializa los miembros de la clase con los valores proporcionados al crear una instancia del solver.
+
+4. Método `solve()`:
+   - El método `solve()` implementa el algoritmo de Gauss-Seidel para resolver el sistema de ecuaciones lineales.
+   - Itera hasta alcanzar el número máximo de iteraciones `maxIterations` o hasta que la solución converja dentro de la tolerancia especificada `tolerance`.
+   - Calcula una nueva estimación de la solución `xNew` utilizando las fórmulas de Gauss-Seidel.
+   - Comprueba si la solución ha convergido comparando el error entre la solución actual `x` y la nueva estimación `xNew`.
+   - Si la solución converge, muestra un mensaje con el número de iteraciones realizadas y devuelve la solución `xNew`.
+   - Si la solución no converge, muestra un mensaje indicando que no se alcanzó la convergencia y devuelve la última solución calculada `x`.
+
+5. Función `main()`:
+   - La función `main()` es el punto de entrada del programa.
+   - Define la matriz de coeficientes `A` y el vector de términos independientes `b`. Puedes modificar estos valores según tus necesidades.
+   - Configura el número máximo de iteraciones `maxIterations` y la tolerancia de convergencia `tolerance`.
+   - Crea una instancia de `GaussSeidelSolver` con los parámetros especificados.
+   - Llama al método `solve()` para obtener la solución del sistema de ecuaciones lineales.
+   - Muestra la solución obtenida en la salida estándar.
+
+6. Modificaciones y personalizaciones:
+   - Puedes modificar la matriz de coeficientes `A` y el vector de términos independientes `b` en la función `main()` para resolver diferentes sistemas de ecuaciones lineales.
+   - Ajusta el número máximo de iteraciones `maxIterations` y la tolerancia de convergencia `tolerance` según tus requisitos de precisión y eficiencia.
+
+Recuerda compilar el código y asegurarte de que las bibliotecas necesarias estén correctamente configuradas antes de realizar modificaciones. ¡Disfruta desarrollando con el programa Gauss-Seidel Solver y experimenta con distintos sistemas de ecuaciones lineales!

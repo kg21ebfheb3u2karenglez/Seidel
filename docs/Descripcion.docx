@@ -1,0 +1,10 @@
+El método de Gauss-Seidel es un enfoque revolucionario para resolver sistemas de ecuaciones lineales. 
+A diferencia de otros métodos, Gauss-Seidel combina la simplicidad con la eficiencia. 
+En lugar de resolver todo el sistema de ecuaciones de una vez, este método trabaja de manera iterativa, actualizando los valores de las incógnitas en cada paso. 
+Esto permite que las soluciones converjan más rápidamente hacia los valores reales, reduciendo el tiempo de cálculo y aumentando la precisión.
+
+Una característica asombrosa de Gauss-Seidel es su capacidad para manejar sistemas grandes y complejos.
+ A medida que se realizan las iteraciones, los resultados se propagan a través del sistema, lo que permite obtener soluciones parciales mientras se continúa el cálculo. 
+ Esto hace que el método sea altamente escalable y adaptable a diversas aplicaciones científicas y tecnológicas.
+
+En resumen, el método de Gauss-Seidel es asombroso por su simplicidad, eficiencia y capacidad para resolver sistemas de ecuaciones lineales de manera iterativa. Su enfoque novedoso y revolucionario ha cambiado la forma en que se abordan estos problemas, proporcionando soluciones más rápidas y precisas en una amplia gama de campos.

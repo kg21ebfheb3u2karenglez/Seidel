@@ -1,0 +1,31 @@
+Manual de usuario:
+Manual de Usuario - Gauss-Seidel Solver
+
+¡Bienvenido al programa Gauss-Seidel Solver! Este programa te permitirá resolver sistemas de ecuaciones lineales utilizando el método de Gauss-Seidel. A continuación, se detallan las instrucciones para utilizar el programa de manera efectiva:
+
+1. Requisitos previos:
+   - Asegúrate de tener instalado un compilador de C++ y la biblioteca Eigen. Si aún no tienes instalada la biblioteca Eigen, puedes encontrarla en https://eigen.tuxfamily.org/. Sigue las instrucciones de instalación proporcionadas en su página web.
+
+2. Descargar y configurar el código:
+   - Descarga el código del programa desde el lugar donde lo estés utilizando.
+   - Asegúrate de que el archivo del código fuente tenga la extensión ".cpp".
+   - Incluye la biblioteca necesaria en la línea `#include <Eigen/Dense>`.
+
+3. Definir la matriz de coeficientes y el vector de términos independientes:
+   - Abre el archivo del código fuente y encuentra la sección `main()` del programa.
+   - Define la matriz de coeficientes A y el vector de términos independientes b. Puedes cambiar los valores existentes en la matriz y el vector o agregar nuevas filas y columnas según sea necesario.
+
+4. Establecer los parámetros del solver:
+   - Configura el número máximo de iteraciones deseado y la tolerancia de convergencia en las variables `maxIterations` y `tolerance`, respectivamente. Puedes ajustar estos valores según tus necesidades.
+
+5. Compilar y ejecutar el programa:
+   - Abre una terminal y navega hasta la ubicación del archivo del código fuente.
+   - Compila el programa ejecutando el comando de compilación apropiado para tu sistema. Por ejemplo, en Linux con GCC, puedes usar el comando `g++ -o gauss_seidel_solver codigo.cpp -std=c++11`.
+   - Una vez compilado sin errores, ejecuta el programa escribiendo `./gauss_seidel_solver` en la terminal.
+
+6. Resultados:
+   - Después de ejecutar el programa, se mostrará la solución obtenida para el sistema de ecuaciones lineales.
+   - Si el programa converge dentro de las iteraciones máximas especificadas, se mostrará el mensaje "Converged after X iterations", donde X es el número de iteraciones realizadas.
+   - Si el programa no converge dentro de las iteraciones máximas, se mostrará el mensaje "Did not converge after maxIterations iterations".
+
+¡Felicitaciones! Ahora puedes utilizar el programa Gauss-Seidel Solver para resolver sistemas de ecuaciones lineales. Recuerda ajustar los valores de la matriz A, el vector b, el número máximo de iteraciones y la tolerancia según tus necesidades. ¡Disfruta utilizando el programa!
